@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+button {
+    margin: 20px 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.prac {
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+#root {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+
+    #root {
+        width: 95%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #result {
+        margin-right: 15px;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
+    button {
+        margin: 10px 5px;
+        padding: 8px 14px;
+        font-size: 14px;
+        width: calc(100% - 10px);
+        max-width: 300px;
+    }
+
+    .prac {
+        height: 45px;
+        font-size: 18px;
+        margin: 15px;
+        width: calc(100% - 30px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #root {
+        width: 85%;
+        padding: 25px;
+    }
+
+    button {
+        padding: 9px 18px;
+        font-size: 16px;
+    }
+
+    .prac {
+        height: 55px;
+        font-size: 20px;
+        margin: 20px;
+    }
+}
