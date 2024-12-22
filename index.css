@@ -85,17 +85,17 @@ button:hover {
 @media (min-width: 768px) and (max-width: 1023px) {
     #root {
         width: 85%;
-        padding: 25px;
+        padding: 1.5rem; /* Changed to relative units */
     }
 
     button {
-        padding: 9px 18px;
-        font-size: 16px;
+        padding: 0.6rem 1.2rem; /* Changed to relative units */
+        font-size: 1rem; /* Changed to relative units */
     }
 
     .prac {
-        height: 55px;
-        font-size: 20px;
-        margin: 20px;
+        height: 3.4375rem; /* Changed to relative units */
+        font-size: 1.25rem; /* Changed to relative units */
+        margin: 1.25rem; /* Changed to relative units */
     }
 }
